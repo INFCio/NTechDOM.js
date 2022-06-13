@@ -11,5 +11,5 @@ const getTime = async () => {
     getTime();
   }
 }
-t.setCustomFunction(getTime)
+t.onload = getTime;
 export {t, n};
